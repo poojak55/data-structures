@@ -9,7 +9,7 @@ int main()
 int i,n;
 printf("enter numbet if students");
 scanf("%d",&n);
-struct student stud[n];
+struct student stud[10];
 printf("enter id,age,marks");
 for(i=o;i<n;i++)
 {
@@ -25,7 +25,7 @@ printf("student is qualified for seeking admission");
 }
 for(i=0;i<n;i++)
 {
-if(stud.age[i]>20&&stud marks[i]>64)
+if(stud[i].age>20&&stud[i].marks>64)
 printf("%d",stud.id[i]);
 }
 return 0;
