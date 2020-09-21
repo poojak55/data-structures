@@ -1,0 +1,32 @@
+#include<stdio.h>
+struct student{
+int id;
+int marks;
+int age;
+};
+int main()
+{
+int i,n;
+printf("enter numbet if students");
+scanf("%d",&n);
+struct student stud[n];
+printf("enter id,age,marks");
+for(i=o;i<n;i++)
+{
+printf("enter %d record");
+printf("enter id:\n");
+scanf("%d",&stud.id);
+printf("enter age:\n");
+scanf("%d",&stud.age);
+printf("enter marks in range 0 to 100:\n");
+scanf("%d",&stud.marks);
+if(stud.age>20 && stud.marks>64)
+printf("student is qualified for seeking admission");
+}
+for(i=0;i<n;i++)
+{
+if(stud.age[i]>20&&stud marks[i]>64)
+printf("%d",stud.id[i]);
+}
+return 0;
+}
